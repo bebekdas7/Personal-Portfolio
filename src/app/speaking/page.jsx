@@ -36,7 +36,7 @@ export default function Speaking() {
       intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
     >
       <div className="space-y-20">
-        <SpeakingSection title="Conferences">
+        {/* <SpeakingSection title="Conferences">
           <Appearance
             href="#"
             title="In space, no one can watch you stream — until now"
@@ -74,7 +74,7 @@ export default function Speaking() {
             event="How They Work Radio, September 2021"
             cta="Listen to podcast"
           />
-        </SpeakingSection>
+        </SpeakingSection> */}
       </div>
     </SimpleLayout>
   )

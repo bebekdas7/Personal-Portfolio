@@ -11,11 +11,10 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
+import logoAirbnb from '@/images/logos/FC.png'
+import logoFacebook from '@/images/logos/DS.png'
+import logoPlanetaria from '@/images/logos/NEC.png'
+import image1 from '@/images/photos/image-1.avif'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
@@ -174,35 +173,28 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'NEC Software Solutions',
+      title: 'Software Engineer',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Futurechaos',
+      title: 'Full Stack Developer',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: '2024',
+      end: '2024',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'Freelance',
+      title: 'Web Scraper',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2023',
+      end: '2023',
     },
   ]
 
@@ -260,28 +252,25 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Software engineer, designer, and cloud architect.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+          I’m Bebek Das, a software engineer and entrepreneur based in India. I’m the founder of a startup aimed at revolutionizing social connections with a focus on privacy, safety, and innovation. With expertise in frontend and backend development, I’m passionate about crafting solutions that empower individuals and make technology more accessible and meaningful.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
+              href="https://www.instagram.com/24.9_02/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href="https://github.com/bebekdas7"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/bebekdas7/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
